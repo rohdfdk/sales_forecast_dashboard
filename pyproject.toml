@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "sales-forecast-dashboard"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "sales_forecast_dashboard"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipywidgets = "^8.1.1"
+pandas = "^2.1.4"
+pandera = "^0.18.0"
+plotly = "^5.18.0"
+numpy = "^1.26.3"
+scikit-learn = "^1.4.0"
+SciPy = "^1.11.4"
+streamlit = "^1.30.0"
+torch = "^2.1.2"
+xlrd = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
