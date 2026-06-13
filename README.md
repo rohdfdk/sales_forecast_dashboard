@@ -1,8 +1,10 @@
-#  売上予測
-$ streamlit run view.py
+# 売上データを用いた深層学習ベースの予測・可視化アプリ
 
-Home
 ![img](images/home.png)
 
-Results
 ![img](images/prediction.png)
+
+### アプリケーションの起動方法
+```bash
+streamlit run view.py
+```
